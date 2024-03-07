@@ -10,9 +10,9 @@ export const Questions = component$(() => {
         <h3 class="mx-8 mt-8 text-center" style="font-weight: 800">
           Frequently Asked Questions
         </h3>
-        <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div class="mx-3 mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
                 class="text-violetLigth mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
@@ -20,7 +20,7 @@ export const Questions = component$(() => {
                 {" "}
                 01
               </div>
-              <div class="flex flex-col">
+              <div class="flex flex-col ">
                 <div class="flex justify-between">
                   <h6 class="text-violetLigth">
                     What can Neurocreativelab do for me?
@@ -37,9 +37,9 @@ export const Questions = component$(() => {
           </div>
 
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -53,9 +53,9 @@ export const Questions = component$(() => {
             </div>
           </div>
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -71,9 +71,9 @@ export const Questions = component$(() => {
             </div>
           </div>
           <div class="flex max-w-[600px] flex-col p-4 ">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -89,9 +89,9 @@ export const Questions = component$(() => {
             </div>
           </div>
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -107,9 +107,9 @@ export const Questions = component$(() => {
             </div>
           </div>
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -125,9 +125,9 @@ export const Questions = component$(() => {
             </div>
           </div>
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -142,9 +142,9 @@ export const Questions = component$(() => {
           </div>
 
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -159,9 +159,9 @@ export const Questions = component$(() => {
           </div>
 
           <div class="flex max-w-[600px] flex-col p-4">
-            <div class="flex">
+            <div class="mx-3 flex">
               <div
-                class="mr-2 p-3 text-navFont "
+                class="text-navFont mr-2 p-3 "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}
@@ -175,10 +175,10 @@ export const Questions = component$(() => {
             </div>
           </div>
 
-          <div class="flex max-w-[600px] flex-col p-4 text-navFont">
-            <div class="flex text-navFont">
+          <div class="text-navFont flex max-w-[600px] flex-col p-4">
+            <div class="text-navFont flex">
               <div
-                class=" mr-2 p-3 "
+                class=" mx-3 mr-2 p-3"
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}

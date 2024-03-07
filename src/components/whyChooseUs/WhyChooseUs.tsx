@@ -4,11 +4,11 @@ export const WhyChooseUs = component$(() => {
   return (
     <>
       <div class="mt-10">
-        <div class="flex flex-col text-center font-barlow">
+        <div class="font-barlow flex flex-col text-center">
           <h3 class="leading-14 text-center text-4xl font-semibold tracking-normal">
             Why Choose NeuroCreativeLab?
           </h3>
-          <p class="mt-3 text-sm">
+          <p class="mx-4 mt-3 text-sm ">
             A team of performance and growth marketers with 50+ years of
             experience combined
           </p>

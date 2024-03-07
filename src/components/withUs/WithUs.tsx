@@ -4,7 +4,7 @@ export const WithUs = component$(() => {
   return (
     <>
       <div
-        style="background: linear-gradient(180deg, #29163E 23%, #1A1A1A 75.5%); "
+        style="background: linear-gradient(180deg, #29163E 23%, #1A1A1A 75.5%);  "
         class=" mx-5 my-5 flex flex-col items-center justify-center sm:mx-20"
       >
         <img
@@ -23,7 +23,7 @@ export const WithUs = component$(() => {
           Long-Term Contracts and Excessive Retainers.
         </div>
         <div>
-          <button class="rounded-lg  bg-orange p-3 px-7    font-barlow font-semibold  text-orangeFont">
+          <button class="bg-orange  font-barlow text-orangeFont rounded-lg    p-3 px-7  font-semibold">
             {" "}
             Partner with Us{" "}
           </button>
