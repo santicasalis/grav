@@ -3,12 +3,15 @@ import { component$ } from "@builder.io/qwik";
 export const WhyChooseUs = component$(() => {
   return (
     <>
-      <div class="mt-10">
-        <div class="font-barlow flex flex-col text-center">
+      <div class="mx-5 mt-10 sm:mx-20">
+        <div class="barlow-font flex flex-col text-center">
           <h3 class="leading-14 text-center text-4xl font-semibold tracking-normal">
             Why Choose NeuroCreativeLab?
           </h3>
-          <p class="mx-4 mt-3 text-sm ">
+          <p
+            class="barlow-font mx-4 mt-3 "
+            style=" font-size: 15px; letter-spacing: -0.066em; text-align: center;"
+          >
             A team of performance and growth marketers with 50+ years of
             experience combined
           </p>
@@ -18,19 +21,21 @@ export const WhyChooseUs = component$(() => {
           class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2"
           style="background: linear-gradient(180deg, #1A1A1A 23%, #29163E 75%);"
         >
-          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
+          <div class="flex flex-col border border-borderColor p-6 sm:p-12 ">
             <div class=" flex items-center">
               {" "}
               <img
-                width="30"
-                height="30"
-                src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709756314/Icon_nyyb5w.png"
+                width="50"
+                height="50"
+                src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709848920/Icon_vvg9js.png"
                 alt=""
                 class="mr-3"
               />
-              <h4>Expertise</h4>
+              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+                Expertise
+              </h4>
             </div>
-            <div class="mx-4 ml-1 mt-4 text-sm">
+            <div class="mx-4 ml-1 mt-4 text-sm" style="color: #E6E6E6;">
               Our team consists of highly skilled professionals who have a deep
               understanding of the digital landscape. We stay updated with the
               latest industry trends and best practices to deliver cutting-edge
@@ -38,38 +43,42 @@ export const WhyChooseUs = component$(() => {
             </div>
           </div>
 
-          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
+          <div class="flex flex-col border border-borderColor p-6 sm:p-12">
             <div class="flex items-center">
               {" "}
               <img
-                width="30"
-                height="30"
+                width="50"
+                height="50"
                 src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709756363/Icon_idxrsw.png"
                 alt=""
                 class="mr-3"
               />
-              <h4>Client-Centric Approach</h4>
+              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+                Client-Centric Approach
+              </h4>
             </div>
-            <div class="mx-4 ml-1 mt-4 text-sm">
+            <div class=" text-sm " style="color: #E6E6E6;">
               We prioritize our clients and their unique needs. We listen to
               your ideas, challenges, and goals, and tailor our services to meet
               your specific requirements. Your success is our success.
             </div>
           </div>
 
-          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
+          <div class="flex flex-col border border-borderColor p-6 sm:p-12">
             <div class="flex items-center">
               {" "}
               <img
-                width="30"
-                height="30"
+                width="50"
+                height="50"
                 src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709756409/Icon_rfrnjn.png"
                 alt=""
                 class="mr-3"
               />
-              <h4>Results-Driven Solutions</h4>
+              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+                Results-Driven Solutions
+              </h4>
             </div>
-            <div class="mx-4 ml-1 mt-4 text-sm">
+            <div class="mx-4 ml-1 mt-4 text-sm " style="color: #E6E6E6;">
               Our primary focus is on delivering results. We combine creativity
               and technical expertise to create digital products that drive
               business growth, enhance user experiences, and provide a
@@ -77,19 +86,21 @@ export const WhyChooseUs = component$(() => {
             </div>
           </div>
 
-          <div class="border-borderColor flex flex-col border p-6 sm:p-12">
+          <div class="flex flex-col border border-borderColor p-5 sm:p-12">
             <div class="flex items-center">
               {" "}
               <img
-                width="30"
-                height="30"
-                src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709756470/Icon_er4ajf.png"
+                width="50"
+                height="50"
+                src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709848984/Icon_u6nxs1.png"
                 alt=""
                 class="mr-3"
               />
-              <h4>Collaborative Partnership</h4>
+              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+                Collaborative Partnership
+              </h4>
             </div>
-            <div class="mx-4 ml-1 mt-4 text-sm">
+            <div class="mx-4 ml-1 mt-4 text-sm" style="color: #E6E6E6;">
               We value long-term relationships with our clients. We see
               ourselves as your digital partner, providing ongoing support,
               maintenance, and updates to ensure your digital products continue

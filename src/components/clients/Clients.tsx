@@ -2,17 +2,16 @@ import { component$ } from "@builder.io/qwik";
 
 export const Clients = component$(() => {
   return (
-    <div class="mx-5 mt-20 flex flex-wrap items-center justify-center sm:mt-5">
-      <div class="mx-4">
+    <div class="mx-20 mt-5 flex flex-wrap items-center justify-center bg-orangeFont py-6 sm:mt-0">
+      <div class="mx-6">
         <img
           width="100"
           height="50"
-          src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709753585/Logo_jasn2v.png"
-          alt=""
+          src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709847589/Vector_s7o7x1.png"
           class="my-3"
         />
       </div>
-      <div class="mx-4">
+      <div class="mx-6">
         <img
           width="100"
           height="50"
@@ -21,37 +20,37 @@ export const Clients = component$(() => {
           class="my-3"
         />
       </div>
-      <div class="mx-4">
+      <div class="mx-6">
         <img
           width="100"
           height="50"
-          src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709753608/Logo_y3ka6l.png"
+          src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709847750/Vector_rqymhx.png"
           alt=""
           class="my-3"
         />
       </div>
-      <div class="mx-4">
+      <div class="mx-6">
         <img
           width="100"
           height="50"
-          src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709753558/Logo_zd5q5z.png"
+          src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709847902/908c797f-4bc1-4548-83e0-24f640fe1378_l4o4x7.png"
           alt=""
           class="my-3"
         />
       </div>
-      <div class="mx-4">
+      <div class="mx-6">
         <img
-          width="100"
-          height="50"
+          width="130"
+          height="80"
           src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709753517/Card_fktzkt.png"
           alt=""
           class="my-3"
         />
       </div>
-      <div class="mx-4">
+      <div class="mx-5">
         <img
-          width="100"
-          height="50"
+          width="130"
+          height="80"
           src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709753539/Card_pd17rk.png"
           alt=""
           class="my-3"
