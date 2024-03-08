@@ -18,7 +18,7 @@ export const HeroSection = component$(() => {
           class="mx-20 flex h-80   flex-col items-center justify-start bg-cover bg-center"
           style="background-image: url('https://res.cloudinary.com/ddpmly8bf/image/upload/v1709734152/Abstract_Design_lswpty.png');"
         >
-          <div class=" my-1 flex flex-col rounded-lg bg-violet bg-opacity-70 p-7 font-barlow sm:flex-row ">
+          <div class=" my-1 mb-4 flex flex-col rounded-lg bg-violet bg-opacity-70 p-7 font-barlow sm:flex-row ">
             <div class="m-1 p-2 text-grey">For</div>
             <div class="m-1 bg-violetDark  p-2 ">eCommerce Brands</div>
             <div class="m-1 p-2 text-grey">and</div>
