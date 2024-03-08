@@ -19,7 +19,6 @@ export default component$(() => {
         <OurServices />
         <SeeHow />
         <Questions />
-        <OficialPartner />
       </div>
     </>
   );

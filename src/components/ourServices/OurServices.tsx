@@ -125,16 +125,14 @@ export const OurServices = component$(() => {
             class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10  "
             style="background: linear-gradient(180deg, #3A2058 0%, #B499DF 100%);"
           >
-            <h3 class="my-3 text-3xl font-bold text-cardsP ">
-              Google, Bing Ads
-            </h3>
+            <h3 class="my-3  text-4xl  font-bold">Google, Bing Ads</h3>
             <div class="  m-2  font-barlow  font-medium text-cardsP">
               Our strategic, data-driven approach targets and engages your ideal
               audience, driving significant traffic and accelerating growth with
               precision.
             </div>
             <div class="my-3">
-              <button class="rounded-lg bg-button px-5 py-2 text-cardsP">
+              <button class="my-2 rounded-lg  bg-button px-10 py-3 font-semibold  text-cardsP">
                 Learn More
               </button>
             </div>
@@ -173,7 +171,7 @@ export const OurServices = component$(() => {
             class="items-left mx-3 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10 "
             style="background: linear-gradient(180deg, #3A2058 0%, #B499DF 100%);"
           >
-            <h3 class="my-3 text-3xl font-bold text-cardsP ">
+            <h3 class="my-3  text-4xl  font-bold">
               Retention & Email Marketing
             </h3>
             <div class="  m-2  font-barlow  font-medium text-cardsP">
@@ -182,7 +180,7 @@ export const OurServices = component$(() => {
               channel into a powerhouse of conversion and customer retention.
             </div>
             <div class="my-3">
-              <button class="rounded-lg bg-button px-5 py-2 text-cardsP">
+              <button class="my-2 rounded-lg  bg-button px-10 py-3 font-semibold  text-cardsP">
                 Learn More
               </button>
             </div>
@@ -222,9 +220,7 @@ export const OurServices = component$(() => {
             class="items-left mx-3 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10 "
             style="background: linear-gradient(180deg, #3A2058 0%, #B499DF 100%);"
           >
-            <h3 class="my-3 text-3xl font-bold text-cardsP ">
-              Ad Creatives & UGC
-            </h3>
+            <h3 class="my-3  text-4xl  font-bold">Ad Creatives & UGC</h3>
             <div class="  m-2  font-barlow  font-medium text-cardsP">
               Our experts specialize in designing dynamic, captivating ad
               creatives and harnessing the genuine power of UGC. From concept to
@@ -232,7 +228,7 @@ export const OurServices = component$(() => {
               resonates across every digital platform.
             </div>
             <div class="my-3">
-              <button class="rounded-lg bg-button px-5 py-2 text-cardsP">
+              <button class="my-2 rounded-lg  bg-button px-10 py-3 font-semibold  text-cardsP">
                 Learn More
               </button>
             </div>

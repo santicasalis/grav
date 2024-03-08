@@ -24,30 +24,30 @@ export default component$(() => {
           class="my-5"
         />
         <div class="flex items-center ">
-          <div class="mx-2 flex flex-col items-center space-x-4 leading-5 sm:flex-row  sm:space-x-6 md:flex-row lg:flex-row">
+          <div class="mx-3 flex flex-col items-center space-x-4 leading-5 sm:flex-row  sm:space-x-6 md:flex-row lg:flex-row">
             {headerNavLinks
               // .filter((link) => link.href !== "/")
               .map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  class="rounded-md   p-2   font-barlow text-sm  text-navFont   "
+                  class="rounded-md   p-0  font-barlow text-sm    text-navFont  "
                 >
                   {link.title}
                 </Link>
               ))}
           </div>
 
-          <div class="border-borderColor  flex flex-col items-center  border p-3 sm:flex-row ">
+          <div class="mb-3  flex flex-col items-center  border border-borderColor p-2 sm:flex-row">
             <div class="text-sm text-navFont">Free Growth Strategies:</div>
             <img
-              src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820475/facebook_5968764_w829jt.png"
+              src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709905633/Buttons_Container_cghnxx.png"
               alt=""
               class="m-2 "
-              width="24"
-              height="24"
+              width="150"
+              height="64"
             />
-            <img
+            {/* <img
               src="https://res.cloudinary.com/ddpmly8bf/image/upload/t_Grayscale/v1709820493/twitter_739257_uqoims.png"
               alt=""
               class="m-2"
@@ -62,18 +62,39 @@ export default component$(() => {
               style="filter: grayscale(100%) sepia(100%) hue-rotate(240deg);"
               width="24"
               height="24"
-            />
+            /> */}
           </div>
         </div>
       </div>
       <hr style="border-color: #262626;" />
       <div class="mx-2  my-5 flex flex-col items-center justify-between sm:mx-10  sm:flex-row ">
         <div class="flex flex-col text-sm  text-navFont sm:flex-row">
-          <div class="mx-3 mt-2">hello@neurocreativelab.com</div>
-          <div class="mx-3 mt-2">+91 91813 23 2309</div>
-          <div class="mx-3 mt-2">Germany</div>
+          <div class="mx-3 mt-2 flex items-center">
+            <img
+              src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709906312/Icon_e34xze.svg"
+              alt=""
+              class="mx-2"
+            />
+            <p>hello@neurocreativelab.com</p>
+          </div>
+          <div class="mx-3 mt-2 flex items-center">
+            <img
+              src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709906263/Icon_tu59bd.svg"
+              alt=""
+              class="mx-2"
+            />
+            <p>+91 91813 23 2309</p>
+          </div>
+          <div class="mx-3 mt-2 flex items-center">
+            <img
+              src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709906293/Icon_as1kd3.svg"
+              alt=""
+              class="mx-2"
+            />
+            <p>Germany</p>
+          </div>
         </div>
-        <div class="text-grey mt-2 text-sm">
+        <div class="mt-2 text-sm text-grey">
           © 2024 Neurocreativelab. All rights reserved.
         </div>
       </div>

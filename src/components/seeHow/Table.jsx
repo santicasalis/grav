@@ -3,12 +3,12 @@ import { component$ } from "@builder.io/qwik";
 export const Table = component$(() => {
   return (
     <>
-      <div class="mx-4 mt-5 overflow-x-auto">
+      <div class=" mx-2 mt-5 overflow-x-auto">
         <table class="mt-5 w-full table-auto">
           <thead class="h-16 text-center">
             <tr class="h-10">
               <td class="w-2/5 text-left">Here's how we compare</td>
-              <td class="bg-bgTableDark w-1/5 ">
+              <td class="w-1/5 bg-bgTableDark ">
                 <img
                   width="110"
                   height="11"
@@ -25,7 +25,7 @@ export const Table = component$(() => {
           <tbody class="  bg-bgTable   text-center">
             <tr class=" h-20  sm:h-12 ">
               <td class="  w-2/5 pl-2 text-left">No long term contract</td>
-              <td class=" bg-bgTableDark w-1/5">✔</td>
+              <td class=" w-1/5 bg-bgTableDark">✔</td>
               <td class=" w-1/5">✖</td>
               <td class=" w-1/5">✔</td>
               <td class="w-1/5 ">✔</td>
@@ -34,7 +34,7 @@ export const Table = component$(() => {
               <td class="h-auto w-2/5 pl-2 text-left">
                 Expert & native creative strategist
               </td>
-              <td class="bg-bgTableDark w-1/5">✔</td>
+              <td class="w-1/5 bg-bgTableDark">✔</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✖</td>
@@ -43,28 +43,28 @@ export const Table = component$(() => {
               <td class=" w-2/5 pl-2 text-left">
                 Dedicated & experienced design team
               </td>
-              <td class="bg-bgTableDark w-1/5">✔</td>
+              <td class="w-1/5 bg-bgTableDark">✔</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✖</td>
             </tr>
             <tr class="h-20 sm:h-12 ">
               <td class="w-2/5 pl-2 text-left">High volume creative testing</td>
-              <td class="bg-bgTableDark w-1/5">✔</td>
+              <td class="w-1/5 bg-bgTableDark">✔</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✔</td>
               <td class="w-1/5">✔</td>
             </tr>
             <tr class="h-20 sm:h-12 ">
               <td class="w-2/5 pl-2 text-left">Peformance-Based Incentive</td>
-              <td class="bg-bgTableDark w-1/5">✔</td>
+              <td class="w-1/5 bg-bgTableDark">✔</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✔</td>
               <td class="w-1/5">✔</td>
             </tr>
             <tr class="h-20 sm:h-12 ">
               <td class="w-2/5 pl-2 text-left">In-House European team</td>
-              <td class="bg-bgTableDark w-1/5">✔</td>
+              <td class="w-1/5 bg-bgTableDark">✔</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✔</td>
               <td class="w-1/5">✔</td>
@@ -73,14 +73,14 @@ export const Table = component$(() => {
               <td class="w-2/5 pl-2 text-left">
                 Complete full growth solution
               </td>
-              <td class="bg-bgTableDark w-1/5">✔</td>
+              <td class="w-1/5 bg-bgTableDark">✔</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✖</td>
             </tr>
             <tr class="h-20 sm:h-12 ">
               <td class="w-2/5 pl-2 text-left">Biweekly performance update</td>
-              <td class="bg-bgTableDark w-1/5">✔</td>
+              <td class="w-1/5 bg-bgTableDark">✔</td>
               <td class="w-1/5">✖</td>
               <td class="w-1/5">✔</td>
               <td class="w-1/5">✔</td>

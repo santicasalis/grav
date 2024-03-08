@@ -3,7 +3,9 @@ import { component$ } from "@builder.io/qwik";
 export const OficialPartner = component$(() => {
   return (
     <>
-      <div class=" sm:m-15 m-10 flex justify-center ">Official Partner of</div>
+      <div class="sm:mt-15 m-5  mt-10 flex justify-center font-barlow ">
+        Official Partner of
+      </div>
       <div class="flex flex-wrap  justify-around ">
         <img
           width="147"

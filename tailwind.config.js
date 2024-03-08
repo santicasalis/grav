@@ -26,6 +26,7 @@ export default {
         // Agrega tus fuentes personalizadas aquí
         custom: ["CustomFont", "sans-serif"],
         barlow: "Barlow",
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
