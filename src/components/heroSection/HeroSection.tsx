@@ -30,11 +30,11 @@ export const HeroSection = component$(() => {
           </div>
         </div>
         <div class=" flex  flex-col justify-center px-10 py-12 sm:flex-row">
-          <button class="bg-btnservices  text-btnservice my-2 mr-2    rounded-lg p-3 px-5 font-barlow font-semibold">
+          <button class="bg-btnservices  text-btnservice my-4 mr-2    rounded-lg p-3 px-5 font-barlow font-semibold">
             {" "}
             Services
           </button>
-          <button class="my-2   rounded-lg bg-orange p-3 px-8   font-barlow font-semibold text-orangeFont">
+          <button class="my-4  rounded-lg bg-orange p-3 px-8   font-barlow font-semibold text-orangeFont">
             {" "}
             Work with Us
           </button>
