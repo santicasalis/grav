@@ -8,15 +8,15 @@ export const Testimonials = component$(() => {
         style="background: linear-gradient(180deg, #29163E 40%, #1A1A1A 80%);"
       >
         <div class="grid grid-cols-1 gap-8  p-12 py-1  sm:grid-cols-2 sm:p-20">
-          <div class="barlow-font flex flex-col">
-            <p class="barlow-font my-3 text-xl" style="color: #D9D9D9;">
+          <div class="flex  flex-col font-barlow">
+            <p class="my-3  font-barlow text-xl" style="color: #D9D9D9;">
               What our customers say about us
             </p>
-            <h3 class="barlow-font font-bold" style="color:  #C5B2E5;">
+            <h3 class="font-barlow  font-bold" style="color:  #C5B2E5;">
               A Partnership Built on Trust & Results
             </h3>
 
-            <p class="barlow-font my-5" style="color: #E6E6E6;">
+            <p class="my-5  font-barlow" style="color: #E6E6E6;">
               Our partners stay on average 2+ years with us. No one can match
               our success rate
             </p>

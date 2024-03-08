@@ -33,13 +33,13 @@ export const HeroSection = component$(() => {
             {" "}
             Services
           </button>
-          <button class="barlow-font  my-2 rounded-lg bg-orange p-3   px-8 font-semibold text-orangeFont">
+          <button class="my-2   rounded-lg bg-orange p-3 px-8   font-barlow font-semibold text-orangeFont">
             {" "}
             Work with Us
           </button>
         </div>
         <button
-          class="barlow-font mx-auto mb-[-20px] mt-8 rounded-full border border-borderColor  p-6 font-semibold "
+          class="mx-auto mb-[-20px] mt-8 rounded-full border border-borderColor p-6  font-barlow font-semibold "
           style="background: #1A1A1A;"
         >
           {" "}

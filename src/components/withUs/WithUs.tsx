@@ -24,7 +24,7 @@ export const WithUs = component$(() => {
           Retainers.
         </div>
         <div>
-          <button class="barlow-font  my-8 rounded-lg bg-orange p-3   px-8 font-semibold text-orangeFont">
+          <button class="my-8   rounded-lg bg-orange p-3 px-8   font-barlow font-semibold text-orangeFont">
             {" "}
             Partner with Us{" "}
           </button>

@@ -9,15 +9,15 @@ export const OurServices = component$(() => {
       >
         <div class="mx-1 grid grid-cols-1 gap-8 p-10 sm:mx-5  sm:grid-cols-2 sm:p-20">
           <div class="flex flex-col">
-            <p class="barlow-font" style="color:  #D9D9D9;">
+            <p class="font-barlow " style="color:  #D9D9D9;">
               Powered by the Growth Matrix™
             </p>
-            <h3 class="barlow-font my-3 font-bold" style="color:  #C5B2E5;">
+            <h3 class="my-3  font-barlow font-bold" style="color:  #C5B2E5;">
               Our Growth <br />
               Services
             </h3>
 
-            <p class="barlow-font pr-5 text-left text-navFont">
+            <p class="pr-5  text-left font-barlow text-navFont">
               Search, Social, Email, Landing Page and Creative all under one
               roof, enhanced with our neuroscience backed Growth Matrix™
             </p>

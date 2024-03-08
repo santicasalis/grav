@@ -4,12 +4,12 @@ export const WhyChooseUs = component$(() => {
   return (
     <>
       <div class="mx-5 mt-10 sm:mx-20">
-        <div class="barlow-font flex flex-col text-center">
-          <h3 class="leading-14 text-center text-4xl font-semibold tracking-normal">
+        <div class="flex  flex-col text-center font-barlow">
+          <h3 class="leading-14 text-center text-4xl font-semibold tracking-normal ">
             Why Choose NeuroCreativeLab?
           </h3>
           <p
-            class="barlow-font mx-4 mt-3 "
+            class="mx-4 mt-3 font-barlow  "
             style=" font-size: 15px; letter-spacing: -0.066em; text-align: center;"
           >
             A team of performance and growth marketers with 50+ years of
@@ -31,11 +31,14 @@ export const WhyChooseUs = component$(() => {
                 alt=""
                 class="mr-3"
               />
-              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+              <h4
+                class=" text-btnservice font-barlow text-xl "
+                style="color: #ffffff;"
+              >
                 Expertise
               </h4>
             </div>
-            <div class="mx-4 ml-1 mt-4 text-sm" style="color: #E6E6E6;">
+            <div class="ml-1 mt-4 font-barlow text-lg" style="color: #E6E6E6;">
               Our team consists of highly skilled professionals who have a deep
               understanding of the digital landscape. We stay updated with the
               latest industry trends and best practices to deliver cutting-edge
@@ -53,11 +56,14 @@ export const WhyChooseUs = component$(() => {
                 alt=""
                 class="mr-3"
               />
-              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+              <h4
+                class=" text-btnservice font-barlow text-xl "
+                style="color: #ffffff;"
+              >
                 Client-Centric Approach
               </h4>
             </div>
-            <div class=" text-sm " style="color: #E6E6E6;">
+            <div class="ml-1 mt-4 font-barlow text-lg" style="color: #E6E6E6;">
               We prioritize our clients and their unique needs. We listen to
               your ideas, challenges, and goals, and tailor our services to meet
               your specific requirements. Your success is our success.
@@ -74,11 +80,14 @@ export const WhyChooseUs = component$(() => {
                 alt=""
                 class="mr-3"
               />
-              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+              <h4
+                class=" text-btnservice font-barlow text-xl "
+                style="color: #ffffff;"
+              >
                 Results-Driven Solutions
               </h4>
             </div>
-            <div class="mx-4 ml-1 mt-4 text-sm " style="color: #E6E6E6;">
+            <div class="ml-1 mt-4 font-barlow text-lg" style="color: #E6E6E6;">
               Our primary focus is on delivering results. We combine creativity
               and technical expertise to create digital products that drive
               business growth, enhance user experiences, and provide a
@@ -96,11 +105,14 @@ export const WhyChooseUs = component$(() => {
                 alt=""
                 class="mr-3"
               />
-              <h4 class=" text-btnservice text-xl" style="color: #ffffff;">
+              <h4
+                class=" text-btnservice font-barlow text-xl "
+                style="color: #ffffff;"
+              >
                 Collaborative Partnership
               </h4>
             </div>
-            <div class="mx-4 ml-1 mt-4 text-sm" style="color: #E6E6E6;">
+            <div class="ml-1 mt-4 font-barlow text-lg" style="color: #E6E6E6;">
               We value long-term relationships with our clients. We see
               ourselves as your digital partner, providing ongoing support,
               maintenance, and updates to ensure your digital products continue

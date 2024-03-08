@@ -16,8 +16,8 @@ export default component$(() => {
     <header class="m-8 mx-20 flex items-center justify-between">
       <div>
         <Link href="/">
-          <div class="flex items-center justify-between">
-            <div class="mr-3">
+          <div class="flex items-center justify-between font-barlow">
+            <div class="mr-3 ">
               <img
                 width="233"
                 height="24"
@@ -29,21 +29,21 @@ export default component$(() => {
           </div>
         </Link>
       </div>
-      <div class="barlow-font flex items-center space-x-4  leading-5 sm:space-x-6">
+      <div class="flex items-center space-x-4 font-barlow font-semibold leading-5 sm:space-x-6">
         {headerNavLinks
           // .filter((link) => link.href !== "/")
           .map((link) => (
             <Link
               key={link.title}
               href={link.href}
-              class="barlow-font hidden   rounded-md   p-2 text-sm  text-navFont  sm:block "
+              class="hidden  rounded-md   p-2   font-barlow text-sm  text-navFont  sm:block "
             >
               {link.title}
             </Link>
           ))}
       </div>
       <div>
-        <button class="barlow-font  hidden gap-2 rounded-xl bg-orange p-1 px-5 text-base font-semibold leading-6 text-orangeFont sm:block">
+        <button class="hidden   gap-2 rounded-xl bg-orange p-1 px-5 font-barlow text-base font-semibold leading-6 text-orangeFont sm:block">
           {" "}
           Get in Touch
         </button>
