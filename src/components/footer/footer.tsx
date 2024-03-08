@@ -13,7 +13,7 @@ export default component$(() => {
   ];
 
   return (
-    <footer class="mx-20">
+    <footer class="mx-0 sm:mx-20">
       <WithUs />
       <div class="mx-10  flex flex-col items-center justify-between sm:flex-row  md:flex-row lg:flex-row">
         <img
@@ -24,7 +24,7 @@ export default component$(() => {
           class="my-5"
         />
         <div class="flex items-center ">
-          <div class="mx-3 flex flex-col items-center space-x-4 leading-5 sm:flex-row  sm:space-x-6 md:flex-row lg:flex-row">
+          <div class="mx-3 flex hidden items-center space-x-4 leading-5 sm:flex sm:flex-row sm:space-x-6 md:hidden lg:flex-row">
             {headerNavLinks
               // .filter((link) => link.href !== "/")
               .map((link) => (

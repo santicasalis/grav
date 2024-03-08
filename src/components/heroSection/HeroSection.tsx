@@ -4,7 +4,7 @@ export const HeroSection = component$(() => {
   return (
     <>
       <div
-        class="mx-3 flex flex-col border border-borderColor sm:mx-20 "
+        class="mx-3  flex flex-col border border-borderColor sm:mx-20 "
         style="background-image: url('https://res.cloudinary.com/ddpmly8bf/image/upload/t_Gradient fade/v1709843526/f351145d-6e34-45cf-9a28-ff796e8bb7e9_igbijq.png'); "
       >
         <div class="  py-10">
@@ -27,17 +27,16 @@ export const HeroSection = component$(() => {
             <div class="m-1 p-2 text-grey">in</div>
             <div class="m-1 bg-violetDark p-2">Annual Recurring Revenue</div>
           </div>
-
-          <div class="flex flex-col  justify-center sm:flex-row">
-            <button class="bg-btnservices  text-btnservice my-2 mr-2    rounded-lg p-3 px-5 font-barlow font-semibold">
-              {" "}
-              Services
-            </button>
-            <button class="barlow-font  my-2 rounded-lg bg-orange p-3   px-8 font-semibold text-orangeFont">
-              {" "}
-              Work with Us
-            </button>
-          </div>
+        </div>
+        <div class=" flex  flex-col justify-center px-10 py-10 sm:flex-row">
+          <button class="bg-btnservices  text-btnservice my-2 mr-2    rounded-lg p-3 px-5 font-barlow font-semibold">
+            {" "}
+            Services
+          </button>
+          <button class="barlow-font  my-2 rounded-lg bg-orange p-3   px-8 font-semibold text-orangeFont">
+            {" "}
+            Work with Us
+          </button>
         </div>
         <button
           class="barlow-font mx-auto mb-[-20px] mt-8 rounded-full border border-borderColor  p-6 font-semibold "

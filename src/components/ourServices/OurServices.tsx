@@ -4,7 +4,7 @@ export const OurServices = component$(() => {
   return (
     <>
       <div
-        class="mx-20  text-violetLigth"
+        class="mx-2  text-violetLigth sm:mx-20"
         style="background: linear-gradient(180deg, #1A1A1A 30%, #29163E 80%);"
       >
         <div class="mx-1 grid grid-cols-1 gap-8 p-10 sm:mx-5  sm:grid-cols-2 sm:p-20">
@@ -70,7 +70,7 @@ export const OurServices = component$(() => {
           </div>
         </div>
 
-        <div class="mx-10 mt-2 grid grid-cols-1 gap-8 sm:mt-10 sm:grid-cols-3">
+        <div class="mx-0 mt-2 grid grid-cols-1 gap-8 sm:mx-10 sm:mt-10 sm:grid-cols-3">
           <div class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10  ">
             <h3 class="my-3 ml-2 text-4xl  font-bold" style="color:  #C5B2E5;">
               Meta, Social Ads

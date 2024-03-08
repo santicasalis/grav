@@ -5,7 +5,7 @@ export const WithUs = component$(() => {
     <>
       <div
         style="background: linear-gradient(180deg, #29163E 23%, #1A1A1A 75.5%);  "
-        class=" mx-5 my-5 flex w-full flex-col items-center justify-center py-20 sm:mx-0 sm:my-1"
+        class=" mx-2 my-1 flex w-full flex-col items-center justify-center py-3 sm:my-1 sm:py-20 "
       >
         <img
           width="233"
@@ -17,7 +17,7 @@ export const WithUs = component$(() => {
 
         <div
           style="font-family: Barlow; font-size: 35px;  line-height: 46px;  text-align: center; color:#ffffff"
-          class="mx-20 "
+          class="mx-4 sm:mx-20 "
         >
           The Only Growth Partner That Delivers Exponential <br />
           Growth without Long-Term Contracts and Excessive <br />

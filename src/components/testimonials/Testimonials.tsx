@@ -4,7 +4,7 @@ export const Testimonials = component$(() => {
   return (
     <>
       <div
-        class="mx-2  text-violetLigth sm:mx-20"
+        class="mx-5  text-violetLigth sm:mx-20"
         style="background: linear-gradient(180deg, #29163E 40%, #1A1A1A 80%);"
       >
         <div class="grid grid-cols-1 gap-8  p-12 py-1  sm:grid-cols-2 sm:p-20">
