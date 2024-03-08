@@ -9,21 +9,29 @@ export const OurServices = component$(() => {
       >
         <div class="mx-1 grid grid-cols-1 gap-8 p-10 sm:mx-5  sm:grid-cols-2 sm:p-20">
           <div class="flex flex-col">
-            <p class="text-navFont">Powered by the Growth Matrix™</p>
-            <h3 class="text-violetLigth mb-3">Our Growth Services</h3>
-            <p class="text-navFont">
+            <p class="barlow-font" style="color:  #D9D9D9;">
+              Powered by the Growth Matrix™
+            </p>
+            <h3 class="barlow-font my-3 font-bold" style="color:  #C5B2E5;">
+              Our Growth <br />
+              Services
+            </h3>
+
+            <p class="barlow-font pr-5 text-left text-navFont">
               Search, Social, Email, Landing Page and Creative all under one
               roof, enhanced with our neuroscience backed Growth Matrix™
             </p>
           </div>
           <div style="position: relative;" class="hidden sm:block md:block">
-            <img
-              width="60"
-              height="75"
-              src="https://s3-alpha-sig.figma.com/img/5a80/c0e8/4e27e18416ee7763fb2930984b2b76c3?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O9Jv5jvYyivXiWjs2TwxgMTEKeTVO2jNE0Xr7uZ7~uka6ixSDW6DtApbWI2gHQlD0Z9vdTrsseqG~WndeFWXahNHn2--9ufLjiBIC1lSMMdxhtEaOnLsKFz-CWI9fzYGLDJeu2t7SOJ9XAfCT01FeIIYoMc2Xypg5Pq1wb9lUfbWU3RhDO6IMj0fMlzqLI654ztQAj2Fre0gBo~7f9OH~dA2sc68uOeUhCnzq71dMY8nYGW~jNDxeF0X0a~ufoeuFLttxKJEnyE4JTxkXUAiiPxeLW5lXJzrS3zOq3Q-7LfIGXRKxjSX~FMW9jP~60wU6a4RqHd6OkWlfqnuoQp2Lw__"
-              alt=" Google"
-              style="position: absolute; top: 135px; right:205px "
-            />
+            <div style="position: absolute; top: 135px; right: 205px; border: 2px solid #borderColor; padding: 10px;">
+              <img
+                width="60"
+                height="75"
+                src="https://s3-alpha-sig.figma.com/img/5a80/c0e8/4e27e18416ee7763fb2930984b2b76c3?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O9Jv5jvYyivXiWjs2TwxgMTEKeTVO2jNE0Xr7uZ7~uka6ixSDW6DtApbWI2gHQlD0Z9vdTrsseqG~WndeFWXahNHn2--9ufLjiBIC1lSMMdxhtEaOnLsKFz-CWI9fzYGLDJeu2t7SOJ9XAfCT01FeIIYoMc2Xypg5Pq1wb9lUfbWU3RhDO6IMj0fMlzqLI654ztQAj2Fre0gBo~7f9OH~dA2sc68uOeUhCnzq71dMY8nYGW~jNDxeF0X0a~ufoeuFLttxKJEnyE4JTxkXUAiiPxeLW5lXJzrS3zOq3Q-7LfIGXRKxjSX~FMW9jP~60wU6a4RqHd6OkWlfqnuoQp2Lw__"
+                alt="Google"
+                class="border border-borderColor p-2"
+              />
+            </div>
 
             <img
               width="60"
@@ -31,6 +39,7 @@ export const OurServices = component$(() => {
               src="https://s3-alpha-sig.figma.com/img/dde3/7f47/ed629573cc2fd04307504c5c0c80e540?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qxClrQd6~H8X78W2mz9khCC-q9FS8SY~Agl02GsUBUTulndtboTQt~W9F6lK-g2OYGgN4GEgqAgAzaZHlTkEfHBgbrA7~eLNqT4lnN-2QPm56G2RQaujeJsJSCMCVQp3i7cMKpv6cCpI6d24o6mOMigGR7CN2PFJy1510IjWC5xfJQdub-38qqENTK9GgXgC45f25W7i1NTxa9-A9eohM6GDPMnlVeG-WetfhMAEnP1UmD4dfQEiO5GWCS-5POdZpi652KOXURLkAWROWR9OSLEU1frTbeJ2e2oVV13RUNpmb3teBPkHp1PbdHE14LqSVj2mpy5dyAVuKL4nBoK24Q__"
               alt="Shopify"
               style="position: absolute; top: 80px; right:310px "
+              class="border border-borderColor p-2"
             />
 
             <img
@@ -39,6 +48,7 @@ export const OurServices = component$(() => {
               src="https://s3-alpha-sig.figma.com/img/83e0/d75f/37a91ec16bafacdb989a8f8bc8d02a1c?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b-lgqRuNdAwhQfzWVgMPzXIe6hmRP9Vw8sc907gDZb5U787wsVu1iNb57XK24J5s7UJHtspHXNuaDA4pS-8Shs5mb~ZXg~aurGF5o2a6pW9g~iBGj4GdWbwW3jdK3ktrZT~29C7LXmpLppZB5dW-fAlIik21av4lS0T~IOOgnu3qn430huM5Cpz8WERPCejCnMDqNjh0cO2CZ8jbsm17NyGsPT7igFBghtjr4vwMdgn9U0P1yha81whYTdhjwOEt6ssg7qAi72xJ0rDawW0VOOU6V4R-WlHJELawzlkMqhFCsYwbYHkdDsbisDW1nd1pzUMcdPoPaR~rlnithRviEA__"
               alt="Adobe"
               style="position: absolute; top: -56px; right:250px "
+              class="border border-borderColor p-2"
             />
 
             <img
@@ -47,6 +57,7 @@ export const OurServices = component$(() => {
               src="https://s3-alpha-sig.figma.com/img/d3d6/1828/72a71e3d15dd09dbbb823ae2bb0564da?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FMs2UVn4iNJVseyEjsN3peh-avv0LI5jUMfgQw-tmMRXpHWsqBt1kCj~2dg9ZGSvw0VvDNxnG0Nele4yZAB2tBdVJSS6Arvsgx7COZ2kgf1LG~WR33Ahq1G2XI0K8747LyURhyrMJVXkhOtVasPgG1BgKNaSc-GQVMWL3wgNvzL~ymugA7zQh-WGedX57w-UutygKqvhtIdY8iQ9zJogYNQewGF8SfShuCItPzRsfxP5Ls99YAxp0n6b8wOdPUz-WMHrV~SY3EmhwfAvM-ukErG41qn0wIy~5KHnvENV25RG5ZgySkd1N9Jzu1vf2krdg-QN5Ar2xBb7TukWrjk0yA__"
               alt="Meta"
               style="position: absolute; top: -50px; right:50px "
+              class="border border-borderColor p-2"
             />
 
             <img
@@ -60,18 +71,21 @@ export const OurServices = component$(() => {
         </div>
 
         <div class="mx-10 mt-2 grid grid-cols-1 gap-8 sm:mt-10 sm:grid-cols-3">
-          <div class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 ">
-            <h3 class="text-violetLigth my-3 text-3xl font-bold">
+          <div class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10  ">
+            <h3 class="my-3 ml-2 text-4xl  font-bold" style="color:  #C5B2E5;">
               Meta, Social Ads
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Dominate Every Feed: Mastering FB+IG, Snapchat, Reddit, TikTok,
               Pinterest, and Amazon Ads. Wherever there's scrolling, we ensure
               your brand captures attention—turning late-night browsers into
               your next customers.
             </div>
             <div class="my-3">
-              <button class="bg-violetLigth rounded-lg px-5 py-2 text-orangeFont">
+              <button
+                class="m-2 rounded-lg  px-10 py-3 font-semibold text-orangeFont"
+                style="background-color: #C5B2E5;"
+              >
                 Learn More
               </button>
             </div>
@@ -82,18 +96,21 @@ export const OurServices = component$(() => {
               alt="Meta"
             />
           </div>
-          <div class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 ">
-            <h3 class="text-violetLigth my-3 text-3xl font-bold ">
+          <div class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10  ">
+            <h3 class="my-3  text-4xl  font-bold" style="color:  #C5B2E5;">
               TikTok <br />
               Ads
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Unlocking TikTok's Explosive Growth: Leverage the platform's
               unmatched potential with our expert strategies, propelling your
               business to new heights.
             </div>
             <div class="my-3">
-              <button class="bg-violetLigth rounded-lg px-5 py-2 text-orangeFont">
+              <button
+                class="my-2 rounded-lg  px-10 py-3 font-semibold text-orangeFont"
+                style="background-color: #C5B2E5;"
+              >
                 Learn More
               </button>
             </div>
@@ -105,19 +122,19 @@ export const OurServices = component$(() => {
             />
           </div>
           <div
-            class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 "
+            class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10  "
             style="background: linear-gradient(180deg, #3A2058 0%, #B499DF 100%);"
           >
-            <h3 class="text-cardsP my-3 text-3xl font-bold ">
+            <h3 class="my-3 text-3xl font-bold text-cardsP ">
               Google, Bing Ads
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Our strategic, data-driven approach targets and engages your ideal
               audience, driving significant traffic and accelerating growth with
               precision.
             </div>
             <div class="my-3">
-              <button class="bg-button text-cardsP rounded-lg px-5 py-2">
+              <button class="rounded-lg bg-button px-5 py-2 text-cardsP">
                 Learn More
               </button>
             </div>
@@ -128,17 +145,20 @@ export const OurServices = component$(() => {
               alt="Meta"
             />
           </div>
-          <div class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 ">
-            <h3 class="text-violetLigth my-3 text-3xl font-bold ">
-              Native Ads
+          <div class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10   ">
+            <h3 class="my-3 text-4xl  font-bold" style="color:  #C5B2E5;">
+              Native <br /> Ads
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               With our finely-tuned strategies, we seamlessly integrate your
               brand into users' daily content consumption, ensuring authentic
               engagement and boosting conversion rates.
             </div>
             <div class="my-3">
-              <button class="bg-violetLigth rounded-lg px-5 py-2 text-orangeFont">
+              <button
+                class="my-2 rounded-lg  px-10 py-3 font-semibold text-orangeFont"
+                style="background-color: #C5B2E5;"
+              >
                 Learn More
               </button>
             </div>
@@ -150,19 +170,19 @@ export const OurServices = component$(() => {
             />
           </div>
           <div
-            class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 "
+            class="items-left mx-3 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10 "
             style="background: linear-gradient(180deg, #3A2058 0%, #B499DF 100%);"
           >
-            <h3 class="text-cardsP my-3 text-3xl font-bold ">
+            <h3 class="my-3 text-3xl font-bold text-cardsP ">
               Retention & Email Marketing
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Dive deep into the world of Email Marketing & retention. We unlock
               the true potential of email, transforming it from an overlooked
               channel into a powerhouse of conversion and customer retention.
             </div>
             <div class="my-3">
-              <button class="bg-button text-cardsP rounded-lg px-5 py-2">
+              <button class="rounded-lg bg-button px-5 py-2 text-cardsP">
                 Learn More
               </button>
             </div>
@@ -173,17 +193,20 @@ export const OurServices = component$(() => {
               alt="Meta"
             />
           </div>
-          <div class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 ">
-            <h3 class="text-violetLigth my-3 text-3xl font-bold ">
+          <div class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10  ">
+            <h3 class="my-3  text-4xl  font-bold" style="color:  #C5B2E5;">
               Data Analysis & Automation
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Turn Data Analysis & Automation into your strategic advantage. By
               decoding complex data patterns and streamlining processes, we
               ensure every decision is informed and every action optimized.
             </div>
             <div class="my-3">
-              <button class="bg-violetLigth rounded-lg px-5 py-2 text-orangeFont">
+              <button
+                class="my-2 rounded-lg  px-10 py-3 font-semibold text-orangeFont"
+                style="background-color: #C5B2E5;"
+              >
                 Learn More
               </button>
             </div>
@@ -196,52 +219,58 @@ export const OurServices = component$(() => {
           </div>
 
           <div
-            class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 "
+            class="items-left mx-3 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10 "
             style="background: linear-gradient(180deg, #3A2058 0%, #B499DF 100%);"
           >
-            <h3 class="text-cardsP my-3 text-3xl font-bold ">
+            <h3 class="my-3 text-3xl font-bold text-cardsP ">
               Ad Creatives & UGC
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Our experts specialize in designing dynamic, captivating ad
               creatives and harnessing the genuine power of UGC. From concept to
               execution, we bring your vision to life, ensuring your message
               resonates across every digital platform.
             </div>
             <div class="my-3">
-              <button class="bg-button text-cardsP rounded-lg px-5 py-2">
+              <button class="rounded-lg bg-button px-5 py-2 text-cardsP">
                 Learn More
               </button>
             </div>
           </div>
-          <div class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 ">
-            <h3 class="text-violetLigth my-3 text-3xl font-bold ">
+          <div class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10   ">
+            <h3 class="my-3  text-4xl  font-bold" style="color:  #C5B2E5;">
               High-Converting Landing Pages
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Elevate your online presence with high-converting landing pages
               designed to captivate and convert. Our approach combines
               neuroscience with storytelling, ensuring every visitor is an
               opportunity for conversion.
             </div>
             <div class="my-3">
-              <button class="bg-violetLigth rounded-lg px-5 py-2 text-orangeFont">
+              <button
+                class="my-2 rounded-lg  px-10 py-3 font-semibold text-orangeFont"
+                style="background-color: #C5B2E5;"
+              >
                 Learn More
               </button>
             </div>
           </div>
-          <div class="border-borderColor items-left mx-3 flex flex-col  justify-center rounded-lg border px-5 py-10 ">
-            <h3 class="text-violetLigth my-3 text-3xl font-bold ">
+          <div class="items-left mx-6 flex flex-col justify-center  rounded-lg border border-borderColor px-5 py-10  ">
+            <h3 class="my-3 text-4xl  font-bold" style="color:  #C5B2E5;">
               Conversion Rate Optimization
             </h3>
-            <div class="text-cardsP my-2">
+            <div class="  m-2  font-barlow  font-medium text-cardsP">
               Our CRO strategies refine and enhance your digital touch points,
               turning browsers into buyers. Through meticulous analysis and
               targeted improvements, we boost your conversions, elevating your
               ROI and online success."
             </div>
             <div class="my-3">
-              <button class="bg-violetLigth rounded-lg px-5 py-2 text-orangeFont">
+              <button
+                class="my-2 rounded-lg  px-10 py-3 font-semibold text-orangeFont"
+                style="background-color: #C5B2E5;"
+              >
                 Learn More
               </button>
             </div>

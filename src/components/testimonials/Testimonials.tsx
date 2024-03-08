@@ -16,7 +16,7 @@ export const Testimonials = component$(() => {
               A Partnership Built on Trust & Results
             </h3>
 
-            <p class="barlow-font my-3 " style="color: #E6E6E6;">
+            <p class="barlow-font my-5" style="color: #E6E6E6;">
               Our partners stay on average 2+ years with us. No one can match
               our success rate
             </p>
@@ -27,7 +27,8 @@ export const Testimonials = component$(() => {
               height="75"
               src="https://s3-alpha-sig.figma.com/img/5a80/c0e8/4e27e18416ee7763fb2930984b2b76c3?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O9Jv5jvYyivXiWjs2TwxgMTEKeTVO2jNE0Xr7uZ7~uka6ixSDW6DtApbWI2gHQlD0Z9vdTrsseqG~WndeFWXahNHn2--9ufLjiBIC1lSMMdxhtEaOnLsKFz-CWI9fzYGLDJeu2t7SOJ9XAfCT01FeIIYoMc2Xypg5Pq1wb9lUfbWU3RhDO6IMj0fMlzqLI654ztQAj2Fre0gBo~7f9OH~dA2sc68uOeUhCnzq71dMY8nYGW~jNDxeF0X0a~ufoeuFLttxKJEnyE4JTxkXUAiiPxeLW5lXJzrS3zOq3Q-7LfIGXRKxjSX~FMW9jP~60wU6a4RqHd6OkWlfqnuoQp2Lw__"
               alt=" Google"
-              style="position: absolute; top: 180px; right:230px "
+              style="position: absolute; top: 185px; right:215px "
+              class="border border-borderColor p-2"
             />
 
             <img
@@ -35,7 +36,8 @@ export const Testimonials = component$(() => {
               height="60"
               src="https://s3-alpha-sig.figma.com/img/dde3/7f47/ed629573cc2fd04307504c5c0c80e540?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qxClrQd6~H8X78W2mz9khCC-q9FS8SY~Agl02GsUBUTulndtboTQt~W9F6lK-g2OYGgN4GEgqAgAzaZHlTkEfHBgbrA7~eLNqT4lnN-2QPm56G2RQaujeJsJSCMCVQp3i7cMKpv6cCpI6d24o6mOMigGR7CN2PFJy1510IjWC5xfJQdub-38qqENTK9GgXgC45f25W7i1NTxa9-A9eohM6GDPMnlVeG-WetfhMAEnP1UmD4dfQEiO5GWCS-5POdZpi652KOXURLkAWROWR9OSLEU1frTbeJ2e2oVV13RUNpmb3teBPkHp1PbdHE14LqSVj2mpy5dyAVuKL4nBoK24Q__"
               alt="Shopify"
-              style="position: absolute; top: 130px; right:350px "
+              style="position: absolute; top: 130px; right:330px "
+              class="border border-borderColor p-2"
             />
 
             <img
@@ -44,6 +46,7 @@ export const Testimonials = component$(() => {
               src="https://s3-alpha-sig.figma.com/img/83e0/d75f/37a91ec16bafacdb989a8f8bc8d02a1c?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b-lgqRuNdAwhQfzWVgMPzXIe6hmRP9Vw8sc907gDZb5U787wsVu1iNb57XK24J5s7UJHtspHXNuaDA4pS-8Shs5mb~ZXg~aurGF5o2a6pW9g~iBGj4GdWbwW3jdK3ktrZT~29C7LXmpLppZB5dW-fAlIik21av4lS0T~IOOgnu3qn430huM5Cpz8WERPCejCnMDqNjh0cO2CZ8jbsm17NyGsPT7igFBghtjr4vwMdgn9U0P1yha81whYTdhjwOEt6ssg7qAi72xJ0rDawW0VOOU6V4R-WlHJELawzlkMqhFCsYwbYHkdDsbisDW1nd1pzUMcdPoPaR~rlnithRviEA__"
               alt="Adobe"
               style="position: absolute; top: 20px; right:250px "
+              class="border border-borderColor p-2"
             />
 
             <img
@@ -52,6 +55,7 @@ export const Testimonials = component$(() => {
               src="https://s3-alpha-sig.figma.com/img/d3d6/1828/72a71e3d15dd09dbbb823ae2bb0564da?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FMs2UVn4iNJVseyEjsN3peh-avv0LI5jUMfgQw-tmMRXpHWsqBt1kCj~2dg9ZGSvw0VvDNxnG0Nele4yZAB2tBdVJSS6Arvsgx7COZ2kgf1LG~WR33Ahq1G2XI0K8747LyURhyrMJVXkhOtVasPgG1BgKNaSc-GQVMWL3wgNvzL~ymugA7zQh-WGedX57w-UutygKqvhtIdY8iQ9zJogYNQewGF8SfShuCItPzRsfxP5Ls99YAxp0n6b8wOdPUz-WMHrV~SY3EmhwfAvM-ukErG41qn0wIy~5KHnvENV25RG5ZgySkd1N9Jzu1vf2krdg-QN5Ar2xBb7TukWrjk0yA__"
               alt="Meta"
               style="position: absolute; top: 10px; right:50px "
+              class="border border-borderColor p-2"
             />
 
             <img
