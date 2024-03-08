@@ -4,12 +4,13 @@ export const HeroSection = component$(() => {
   return (
     <>
       <div
-        class="mx-3  flex flex-col border border-borderColor sm:mx-20 "
+        class="mx-1  flex flex-col border border-borderColor sm:mx-20 "
         style="background-image: url('https://res.cloudinary.com/ddpmly8bf/image/upload/t_Gradient fade/v1709843526/f351145d-6e34-45cf-9a28-ff796e8bb7e9_igbijq.png'); "
       >
         <div class="  py-10">
-          <h3 class="leading-1000 mx-8 mt-4 text-center font-barlow text-4xl font-semibold">
-            The Only Full Service Growth Marketing Agency <br />
+          <h3 class="leading-1000 mx-4 mt-4 text-center font-barlow text-4xl font-semibold sm:mx-8">
+            The Only Full Service Growth Marketing Agency{" "}
+            <br class="hidden  sm:block" />
             Fueled By Neuroscience & Creative
           </h3>
         </div>
@@ -28,7 +29,7 @@ export const HeroSection = component$(() => {
             <div class="m-1 bg-violetDark p-2">Annual Recurring Revenue</div>
           </div>
         </div>
-        <div class=" flex  flex-col justify-center px-10 py-10 sm:flex-row">
+        <div class=" flex  flex-col justify-center px-10 py-12 sm:flex-row">
           <button class="bg-btnservices  text-btnservice my-2 mr-2    rounded-lg p-3 px-5 font-barlow font-semibold">
             {" "}
             Services

@@ -4,7 +4,7 @@ export const Testimonials = component$(() => {
   return (
     <>
       <div
-        class="mx-5  text-violetLigth sm:mx-20"
+        class="mx-3  text-violetLigth sm:mx-20"
         style="background: linear-gradient(180deg, #29163E 40%, #1A1A1A 80%);"
       >
         <div class="grid grid-cols-1 gap-8  p-12 py-1  sm:grid-cols-2 sm:p-20">
@@ -82,7 +82,7 @@ export const Testimonials = component$(() => {
               visually stunning and user-friendly e-commerce platform. Our
               online sales have skyrocketed, and we couldn't be happier.
             </p>
-            <div class="flex justify-between border  border-borderColor p-3">
+            <div class="flex flex-col border border-borderColor p-3  sm:flex-row sm:justify-between">
               <div class="flex items-center ">
                 <img
                   width="60"
@@ -98,7 +98,7 @@ export const Testimonials = component$(() => {
                   <div>CEO of Chic Boutique</div>
                 </div>
               </div>
-              <button class=" rounded-md bg-orangeFont px-5 py-3 text-navFont">
+              <button class=" mt-3 rounded-md bg-orangeFont px-2 py-3 text-navFont sm:px-5">
                 Open Website
               </button>
             </div>
@@ -117,7 +117,7 @@ export const Testimonials = component$(() => {
               expectations, and our customers love the seamless ordering
               experience. SquareUp is a trusted partner we highly recommend.
             </p>
-            <div class="flex justify-between border border-borderColor p-3">
+            <div class="flex flex-col border border-borderColor p-3  sm:flex-row sm:justify-between">
               <div class="flex items-center ">
                 <img
                   width="60"
@@ -133,7 +133,7 @@ export const Testimonials = component$(() => {
                   <div>Founder of HungryBites.</div>
                 </div>
               </div>
-              <button class=" rounded-md bg-orangeFont px-5 py-3 text-navFont">
+              <button class="mt-3 rounded-md bg-orangeFont px-2 py-3 text-navFont sm:px-5">
                 Open Website
               </button>
             </div>
@@ -152,7 +152,7 @@ export const Testimonials = component$(() => {
               system has streamlined our operations and enhanced our clients'
               event experiences.
             </p>
-            <div class="flex justify-between border border-borderColor p-3">
+            <div class="flex flex-col border border-borderColor p-3  sm:flex-row sm:justify-between">
               <div class="flex items-center ">
                 <img
                   width="60"
@@ -168,7 +168,7 @@ export const Testimonials = component$(() => {
                   <div>CEO of EventMasters</div>
                 </div>
               </div>
-              <button class=" rounded-md bg-orangeFont px-5 py-3 text-navFont">
+              <button class="mt-3 rounded-md bg-orangeFont px-2 py-3 text-navFont sm:px-5">
                 Open Website
               </button>
             </div>
@@ -186,7 +186,7 @@ export const Testimonials = component$(() => {
               errors. SquareUp's expertise and professionalism have made them a
               trusted technology partner.
             </p>
-            <div class="flex justify-between border border-borderColor p-3">
+            <div class="flex flex-col border border-borderColor p-3  sm:flex-row sm:justify-between">
               <div class="flex items-center">
                 <img
                   width="60"
@@ -202,7 +202,7 @@ export const Testimonials = component$(() => {
                   <div>COO ProTech Solutions.</div>
                 </div>
               </div>
-              <button class=" rounded-md bg-orangeFont px-5 py-3 text-navFont">
+              <button class="mt-3 rounded-md bg-orangeFont px-2 py-3 text-navFont sm:px-5">
                 Open Website
               </button>
             </div>

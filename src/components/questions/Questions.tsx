@@ -6,7 +6,7 @@ export const Questions = component$(() => {
     <>
       <div
         style="background: linear-gradient(180deg, #1A1A1A 26.5%, #29163E 74%); "
-        class="mx-2  flex flex-col items-center justify-center sm:mx-20"
+        class="mx-1 flex flex-col items-center justify-center sm:mx-20"
       >
         <h3 class="mx-8 mt-8 text-center" style="font-weight: 800;">
           Frequently Asked Questions
@@ -24,10 +24,10 @@ export const Questions = component$(() => {
               <div class="flex flex-col ">
                 <div class="flex flex-col items-start justify-start">
                   <div class="flex  justify-around">
-                    <h6 class="pr-10 text-left" style="color:  #C5B2E5">
+                    <h6 class="pr-2 text-left sm:pr-10" style="color:  #C5B2E5">
                       What can Neurocreativelab do for me?
                     </h6>
-                    <div class="ml-3 sm:ml-12">✖</div>
+                    <div class="ml-1 sm:ml-12">✖</div>
                   </div>
                   <div class="mt-4  pr-10 text-sm">
                     Neurocreativelab (NCL) is a growth & performance marketing{" "}
@@ -41,10 +41,10 @@ export const Questions = component$(() => {
             </div>
           </div>
 
-          <div class="flex max-w-[600px] flex-col p-4">
-            <div class="mx-3 flex">
+          <div class="flex max-w-[600px] flex-col p-3 sm:p-4">
+            <div class=" mx-3 flex">
               <div
-                class="mr-4  p-3 text-navFont "
+                class=" mr-4  p-3 text-navFont "
                 style="width: 60px; height: 60px; padding: 20px; border-radius: 12px; border: 1px solid; border-image-source: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0) 100%); background-color: #242424; display: inline-block;"
               >
                 {" "}

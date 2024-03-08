@@ -13,7 +13,7 @@ export default component$(() => {
   ];
 
   return (
-    <header class="m-8 mx-20 flex items-center justify-between">
+    <header class="m-8 mx-5 flex items-center justify-between sm:mx-20">
       <div>
         <Link href="/">
           <div class="flex items-center justify-between font-barlow">
