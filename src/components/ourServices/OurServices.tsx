@@ -4,7 +4,7 @@ export const OurServices = component$(() => {
   return (
     <>
       <div
-        class="text-violetLigth "
+        class="mx-20  text-violetLigth"
         style="background: linear-gradient(180deg, #1A1A1A 30%, #29163E 80%);"
       >
         <div class="mx-1 grid grid-cols-1 gap-8 p-10 sm:mx-5  sm:grid-cols-2 sm:p-20">

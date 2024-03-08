@@ -6,7 +6,7 @@ export const Questions = component$(() => {
     <>
       <div
         style="background: linear-gradient(180deg, #1A1A1A 26.5%, #29163E 74%); "
-        class="flex flex-col items-center justify-center"
+        class="mx-20 flex flex-col items-center justify-center"
       >
         <h3 class="mx-8 mt-8 text-center" style="font-weight: 800;">
           Frequently Asked Questions

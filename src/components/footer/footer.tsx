@@ -13,7 +13,7 @@ export default component$(() => {
   ];
 
   return (
-    <footer>
+    <footer class="mx-20">
       <WithUs />
       <div class="mx-10  flex flex-col items-center justify-between sm:flex-row  md:flex-row lg:flex-row">
         <img
