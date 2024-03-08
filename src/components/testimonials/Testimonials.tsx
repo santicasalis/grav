@@ -68,7 +68,7 @@ export const Testimonials = component$(() => {
           </div>
         </div>
 
-        <div class="mt-1 grid grid-cols-1 gap-8 sm:mt-2 sm:grid-cols-2">
+        <div class="mt-1 grid grid-cols-1  sm:mt-2 sm:grid-cols-2">
           <div class="flex flex-col border border-borderColor  p-8 py-3">
             <h4
               class="text-28 mb-2 mt-5 text-xl font-semibold leading-8"

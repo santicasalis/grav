@@ -10,7 +10,7 @@ export const WhyChooseUs = component$(() => {
           </h3>
           <p
             class="mx-4 mt-3 font-barlow  "
-            style=" font-size: 15px; letter-spacing: -0.066em; text-align: center;"
+            style=" font-size: 15px; letter-spacing: -0.020em; text-align: center;"
           >
             A team of performance and growth marketers with 50+ years of
             experience combined
@@ -18,10 +18,10 @@ export const WhyChooseUs = component$(() => {
         </div>
 
         <div
-          class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2"
+          class="mt-10 grid grid-cols-1  sm:grid-cols-2 md:grid-cols-2"
           style="background: linear-gradient(180deg, #1A1A1A 23%, #29163E 75%);"
         >
-          <div class="flex flex-col border border-borderColor p-6 sm:p-12 ">
+          <div class="flex flex-col  border border-borderColor p-6 sm:p-12 ">
             <div class=" flex items-center">
               {" "}
               <img
