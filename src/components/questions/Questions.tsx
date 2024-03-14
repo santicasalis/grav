@@ -33,7 +33,7 @@ export const Questions = component$(() => {
                       onClick$={() =>
                         (toggleAnswer.value = !toggleAnswer.value)
                       }
-                      class="ml-1 sm:ml-12"
+                      class="ml-1 text-2xl sm:ml-12"
                     >
                       {toggleAnswer.value ? "✖" : "✚"}
                     </button>
@@ -64,7 +64,7 @@ export const Questions = component$(() => {
 
               <div class="flex min-w-[300px] items-center justify-between  sm:min-w-[400px]">
                 <h6 class="text-navFont">Which services do you offer?</h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export const Questions = component$(() => {
                 <h6 class="text-navFont">
                   Who can benefit from your services?
                 </h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export const Questions = component$(() => {
                 <h6 class="text-navFont">
                   How does your agency stand from others?
                 </h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export const Questions = component$(() => {
                 <h6 class="text-navFont">
                   Do you specialize in any industries?
                 </h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -136,7 +136,7 @@ export const Questions = component$(() => {
                 <h6 class="text-navFont">
                   Can you handle international campaigns?
                 </h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ export const Questions = component$(() => {
 
               <div class="flex min-w-[300px] items-center justify-between  sm:min-w-[400px]">
                 <h6 class="text-navFont">How do you measure success?</h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ export const Questions = component$(() => {
 
               <div class="flex min-w-[300px] items-center justify-between  sm:min-w-[400px]">
                 <h6 class="text-navFont">What is your pricing model?</h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -186,7 +186,7 @@ export const Questions = component$(() => {
 
               <div class="flex min-w-[300px] items-center justify-between  sm:min-w-[400px]">
                 <h6 class="text-navFont">Are there any long-term contracts?</h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@ export const Questions = component$(() => {
 
               <div class="flex min-w-[300px] items-center justify-between  sm:min-w-[400px]">
                 <h6 class="">How can I get started?</h6>
-                <div class="text-4xl">+</div>
+                <div class="text-2xl">✚</div>
               </div>
             </div>
           </div>
