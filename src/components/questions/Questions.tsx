@@ -1,7 +1,9 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useSignal } from "@builder.io/qwik";
 import { OficialPartner } from "../oficialPartner/OficialPartner";
 
 export const Questions = component$(() => {
+  const toggleAnswer = useSignal(false);
+
   return (
     <>
       <div
@@ -27,15 +29,24 @@ export const Questions = component$(() => {
                     <h6 class="pr-2 text-left sm:pr-10" style="color:  #C5B2E5">
                       What can Neurocreativelab do for me?
                     </h6>
-                    <div class="ml-1 sm:ml-12">✖</div>
+                    <button
+                      onClick$={() =>
+                        (toggleAnswer.value = !toggleAnswer.value)
+                      }
+                      class="ml-1 sm:ml-12"
+                    >
+                      {toggleAnswer.value ? "✖" : "✚"}
+                    </button>
                   </div>
-                  <div class="mt-4  pr-10 text-sm">
-                    Neurocreativelab (NCL) is a growth & performance marketing{" "}
-                    <br />
-                    agency specializing in innovative strategies to scale
-                    businesses <br /> through data-driven and creative
-                    solutions.
-                  </div>
+                  {toggleAnswer.value && (
+                    <div class="mt-4  pr-10 text-sm">
+                      Neurocreativelab (NCL) is a growth & performance marketing{" "}
+                      <br />
+                      agency specializing in innovative strategies to scale
+                      businesses <br /> through data-driven and creative
+                      solutions.
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
